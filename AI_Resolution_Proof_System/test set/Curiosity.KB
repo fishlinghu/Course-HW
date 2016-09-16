@@ -1,0 +1,11 @@
+Variables: X,Y
+Constants: "Etro","Curiosity","Kitty"
+Predicates: Dog(v1),Owns(v1,v2),AnimalLover(v1),Animal(v1),Kill(v1,v2),Cat(v1)
+FOL start
+Exist X [Dog(X) & Owns("Etro",X)]
+Forall X Forall Y [Dog(Y) & Owns(X,Y) => AnimalLover(X)]
+Forall X Forall Y [AnimalLover(X) & Animal(Y) => ! Kill(X,Y)]
+Kill("Etro","Kitty") | Kill("Curiosity","Kitty")
+Cat("Kitty")
+Forall X [Cat(X) => Animal(X)]
+FOL end

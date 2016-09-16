@@ -1,0 +1,8 @@
+Variables: X
+Constants: 
+Predicates: Wolf(v1),animal(v1),DonkeyKong(v1)
+FOL start
+Forall X [Wolf(X) => animal(X)]
+Forall X [DonkeyKong(X) => animal(X)]
+Exist X [Wolf(X)]
+FOL end

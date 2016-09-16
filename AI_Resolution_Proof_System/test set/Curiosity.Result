@@ -1,0 +1,43 @@
+conversion start
+
+KB
+{
+Exist X [Dog(X) & Owns("Etro",X)]
+to
+C1 Dog("X")
+C2 Owns("Etro","X")
+Forall X Forall Y [Dog(Y) & Owns(X,Y) => AnimalLover(X)]
+to
+C3 ! Dog(Y) | ! Owns("X",Y) | AnimalLover("X")
+Forall X Forall Y [AnimalLover(X) & Animal(Y) => ! Kill(X,Y)]
+to
+C4 ! AnimalLover("X") | ! Animal(Y) | ! Kill("X",Y)
+Kill("Etro","Kitty") | Kill("Curiosity","Kitty")
+to
+C5 Kill("Etro","Kitty") | Kill("Curiosity","Kitty")
+Cat("Kitty")
+to
+C6 Cat("Kitty")
+Forall X [Cat(X) => Animal(X)]
+to
+C7 ! Cat("X") | Animal("X")
+}
+
+Negated Query
+{
+! [Kill("Curiosity","Kitty")]
+to
+C8 ! Kill("Curiosity","Kitty")
+}
+
+conversion end
+
+proof & unification start
+
+C3+C15
+NULL
+
+proof & unification end
+
+PROVE/DISPROVE:
+PROVE

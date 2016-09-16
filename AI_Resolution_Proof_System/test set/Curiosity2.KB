@@ -1,0 +1,11 @@
+Variables: X,Y,Z
+Constants: "Jack","Tuna","Curiosity"
+Predicates: Animal(v1),Loves(v1,v2),Kills(v1,v2),Cat(v1)
+FOL start
+Forall X [[Forall Y [Animal(Y) => Loves(X,Y)]] => [Exist Y [Loves(Y,X)]]]
+Forall X [[Exist Z [Animal(Z) & Kills(X,Z)]] => [Forall Y ! [Loves(Y,X)]]]
+Forall X [Animal(X) => Loves("Jack",X)]
+Kills("Jack","Tuna") | Kills("Curiosity","Tuna")
+Cat("Tuna")
+Forall X [Cat(X) => Animal(X)]
+FOL end

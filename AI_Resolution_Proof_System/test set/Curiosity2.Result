@@ -1,0 +1,36 @@
+conversion start
+
+KB
+{
+Forall X [[Forall Y [Animal(Y) => Loves(X,Y)]] => [Exist Y [Loves(Y,X)]]]
+to
+C1 Animal("Y") | Loves("Y",X)
+C2 ! Loves(X,"Y") | Loves("Y",X)
+Forall X [[Exist Z [Animal(Z) & Kills(X,Z)]] => [Forall Y ! [Loves(Y,X)]]]
+to
+C3 ! Animal(Z) | ! Kills(X,Z) | ! Loves("Y",X)
+Forall X [Animal(X) => Loves("Jack",X)]
+to
+C4 ! Animal(X) | Loves("Jack",X)
+Kills("Jack","Tuna") | Kills("Curiosity","Tuna")
+to
+C5 Kills("Jack","Tuna") | Kills("Curiosity","Tuna")
+Cat("Tuna")
+to
+C6 Cat("Tuna")
+Forall X [Cat(X) => Animal(X)]
+to
+C7 ! Cat(X) | Animal(X)
+}
+
+Negated Query
+{
+! [Kills("Curiosity","Tuna")]
+to
+C8 ! Kills("Curiosity","Tuna")
+}
+
+conversion end
+
+proof & unification start
+

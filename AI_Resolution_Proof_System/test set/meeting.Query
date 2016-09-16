@@ -1,0 +1,1 @@
+Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(Z,Y,X)]

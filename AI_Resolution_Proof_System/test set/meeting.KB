@@ -1,0 +1,8 @@
+Variables: X,Y,Z
+Constants: 
+Predicates: meeting(v1,v2,v3)
+FOL start
+Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(Y,X,Z)]
+Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(X,Z,Y)]
+FOL end
+

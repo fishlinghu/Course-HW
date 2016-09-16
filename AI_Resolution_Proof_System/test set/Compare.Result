@@ -1,0 +1,39 @@
+conversion start
+
+KB
+{
+Forall X Forall Y [chick(X) & crocodile(Y) => smaller(X,Y)]
+to
+C1 ! chick(X) | ! crocodile(Y) | smaller(X,Y)
+Forall X Forall Y [crocodile(X) & elephant(Y) => smaller(X,Y)]
+to
+C2 ! crocodile(X) | ! elephant(Y) | smaller(X,Y)
+Forall X Forall Y Forall Z [smaller(X,Y) & smaller(Y,Z) => smaller(X,Z)]
+to
+C3 ! smaller(X,Y) | ! smaller(Y,Z) | smaller(X,Z)
+Exist X [elephant(X)]
+to
+C4 elephant("X")
+}
+
+Negated Query
+{
+! [Exist X Exist Y Exist Z [chick(X) & crocodile(Y) & elephant(Z) => smaller(X,Z)]]
+to
+C5 chick("X")
+C6 crocodile(Y)
+C7 elephant(Z)
+C8 ! smaller("X",Z)
+}
+
+conversion end
+
+proof & unification start
+
+C1+C8
+NULL
+
+proof & unification end
+
+PROVE/DISPROVE:
+PROVE

@@ -1,0 +1,9 @@
+Variables: X,Y,Z
+Constants: 
+Predicates: chick(v1),crocodile(v1),elephant(v1),smaller(v1,v2)
+FOL start
+Forall X Forall Y [chick(X) & crocodile(Y) => smaller(X,Y)]
+Forall X Forall Y [crocodile(X) & elephant(Y) => smaller(X,Y)]
+Forall X Forall Y Forall Z [smaller(X,Y) & smaller(Y,Z) => smaller(X,Z)]
+Exist X [elephant(X)]
+FOL end

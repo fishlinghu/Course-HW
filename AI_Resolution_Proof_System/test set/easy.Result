@@ -1,0 +1,26 @@
+conversion start
+
+KB
+{
+Forall X [Wolf(X) => animal(X)]
+to
+C1 ! Wolf(X) | animal(X)
+Forall X [DonkeyKong(X) => animal(X)]
+to
+C2 ! DonkeyKong(X) | animal(X)
+Exist X [Wolf(X)]
+to
+C3 Wolf("X")
+}
+
+Negated Query
+{
+! [Exist X [animal(X)]]
+to
+C4 ! animal("X")
+}
+
+conversion end
+
+proof & unification start
+

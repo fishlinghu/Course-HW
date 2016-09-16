@@ -1,0 +1,24 @@
+conversion start
+
+KB
+{
+Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(Y,X,Z)]
+to
+C1 ! meeting(X,Y,Z) | meeting(Y,X,Z)
+Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(X,Z,Y)]
+to
+C2 ! meeting(X,Y,Z) | meeting(X,Z,Y)
+}
+
+Negated Query
+{
+! [Forall X Forall Y Forall Z [meeting(X,Y,Z) => meeting(Z,Y,X)]]
+to
+C3 meeting("X","Y","Z")
+C4 ! meeting("Z","Y","X")
+}
+
+conversion end
+
+proof & unification start
+

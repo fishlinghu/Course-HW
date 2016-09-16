@@ -1,0 +1,42 @@
+conversion start
+
+KB
+{
+Forall X Forall Y [WantToKill(X,Y) & Jedi(Y) => ! Jedi(X)]
+to
+C1 ! WantToKill(X,Y) | ! Jedi(Y) | ! Jedi(X)
+Forall X [CanUseForce(X) <=> Jedi(X) | Sith(X)]
+to
+C2 ! CanUseForce(X) | Jedi(X) | Sith(X)
+C3 ! Jedi(X) | CanUseForce(X)
+C4 ! Sith(X) | CanUseForce(X)
+Forall X Forall Y [StudentOf(X,Y) & CanUseForce(Y) => CanUseForce(X)]
+to
+C5 ! StudentOf(X,Y) | ! CanUseForce(Y) | CanUseForce(X)
+StudentOf("AnakinSkywalker","ObiWan")
+to
+C6 StudentOf("AnakinSkywalker","ObiWan")
+WantToKill("AnakinSkywalker","ObiWan")
+to
+C7 WantToKill("AnakinSkywalker","ObiWan")
+Jedi("ObiWan")
+to
+C8 Jedi("ObiWan")
+}
+
+Negated Query
+{
+! [Sith("AnakinSkywalker")]
+to
+C9 ! Sith("AnakinSkywalker")
+}
+
+conversion end
+
+proof & unification start
+
+
+proof & unification end
+
+PROVE/DISPROVE:
+DISPROVE
