@@ -1,0 +1,59 @@
+#
+sYstem
+#
+beGin
+#
+	tam_width	8
+#
+	PoWer		8
+#
+	ResoURce BIST_1 BIST_2 BIST_3 BIST_4 
+EnD
+#
+#
+coRE	core_1
+#
+begin
+#
+	TAM_width	2	
+#
+# 
+		ExTErnal test_1 length 5 power 2
+#
+        External test_2 length 5 power 2
+#
+end
+
+#
+Core	core_2
+#
+begin
+	TAM_width	2	
+#
+	External test_3 length 11 power 2
+end
+
+Core	core_3
+begin
+	TAM_width	2	
+        External test_4 length 5 power 2
+eNd
+
+Core	core_4
+begin
+	TAM_width	2	
+        External test_5 length 5 power 2
+end
+
+Core	core_5
+begin
+	TAM_width	2	
+        External test_6 length 5 power 2
+end
+
+Core	core_6
+begin
+	TAM_width	2	
+        External test_7 length 5 power 2
+eNd
+

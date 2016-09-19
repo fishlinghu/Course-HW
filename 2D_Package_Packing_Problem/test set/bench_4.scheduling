@@ -1,0 +1,372 @@
+Schedule
+begin
+Test_time 72082
+TAM_assignment core_2 [15:0]
+TAM_assignment core_3 [31:24]
+TAM_assignment core_4 [23:16]
+TAM_assignment core_5 [15:0]
+TAM_assignment core_6 [31:24]
+TAM_assignment core_7 [31:24]
+TAM_assignment core_8 [3:0]
+TAM_assignment core_9 [11:4]
+TAM_assignment core_10 [19:16]
+TAM_assignment core_11 [11:0]
+TAM_assignment core_12 [23:12]
+TAM_assignment core_13 [31:24]
+TAM_assignment core_14 [31:20]
+TAM_assignment core_15 [15:0]
+TAM_assignment core_16 [11:0]
+TAM_assignment core_17 [15:0]
+TAM_assignment core_18 [15:0]
+TAM_assignment core_20 [23:0]
+TAM_assignment core_21 [23:16]
+TAM_assignment core_22 [23:0]
+TAM_assignment core_23 [19:12]
+TAM_assignment core_24 [31:20]
+TAM_assignment core_25 [19:0]
+TAM_assignment core_26 [15:0]
+TAM_assignment core_27 [15:0]
+TAM_assignment core_28 [19:0]
+TAM_assignment core_29 [15:4]
+TAM_assignment core_30 [27:0]
+TAM_assignment core_31 [15:0]
+TAM_assignment core_32 [15:0]
+TAM_assignment core_34 [31:24]
+TAM_assignment core_35 [27:0]
+TAM_assignment core_36 [23:0]
+TAM_assignment core_37 [31:24]
+TAM_assignment core_39 [31:0]
+TAM_assignment core_41 [31:20]
+TAM_assignment core_42 [19:0]
+TAM_assignment core_43 [19:0]
+TAM_assignment core_44 [23:20]
+TAM_assignment core_45 [31:24]
+TAM_assignment core_46 [19:0]
+TAM_assignment core_47 [31:20]
+TAM_assignment core_48 [15:0]
+TAM_assignment core_49 [15:0]
+TAM_assignment core_50 [27:0]
+TAM_assignment core_52 [31:24]
+TAM_assignment core_53 [23:0]
+TAM_assignment core_54 [23:16]
+TAM_assignment core_55 [31:28]
+TAM_assignment core_56 [27:0]
+TAM_assignment core_57 [19:0]
+TAM_assignment core_58 [31:20]
+TAM_assignment core_59 [3:0]
+TAM_assignment core_60 [23:0]
+TAM_assignment core_61 [15:0]
+TAM_assignment core_62 [15:0]
+TAM_assignment core_64 [31:24]
+TAM_assignment core_65 [31:0]
+TAM_assignment core_67 [31:0]
+TAM_assignment core_70 [15:0]
+TAM_assignment core_71 [15:0]
+TAM_assignment core_72 [31:24]
+TAM_assignment core_73 [15:0]
+TAM_assignment core_74 [23:16]
+TAM_assignment core_75 [19:0]
+TAM_assignment core_76 [31:20]
+TAM_assignment core_77 [15:0]
+TAM_assignment core_78 [15:0]
+TAM_assignment core_79 [27:0]
+TAM_assignment core_80 [31:20]
+BIST core_1 test_1_1_1 (993, 1095)
+BIST core_1 test_1_1_2 (0, 454)
+BIST core_2 test_2_1_1 (0, 992)
+External core_2 test_2_3_1 (44649, 45461)
+External core_2 test_2_3_2 (31619, 31825)
+External core_3 test_3_3_1 (35369, 36326)
+External core_3 test_3_3_2 (36327, 37273)
+External core_3 test_3_3_3 (61658, 62136)
+External core_3 test_3_3_4 (56578, 56871)
+External core_3 test_3_3_5 (5595, 5895)
+External core_3 test_3_3_6 (46460, 47210)
+External core_3 test_3_3_7 (28629, 28821)
+External core_3 test_3_3_8 (56013, 56577)
+External core_3 test_3_3_9 (49792, 50447)
+External core_4 test_4_3_2 (62790, 63247)
+External core_4 test_4_3_3 (44649, 45485)
+External core_4 test_4_3_5 (61658, 62134)
+External core_4 test_4_3_1_4 (30642, 31832)
+External core_5 test_5_3_1 (25155, 26135)
+External core_5 test_5_3_2 (37234, 37495)
+External core_6 test_6_3_1 (58917, 59061)
+External core_6 test_6_3_2 (14700, 16568)
+External core_6 test_6_3_3 (5931, 8504)
+External core_6 test_6_3_4 (64335, 64499)
+External core_6 test_6_3_5 (52175, 52803)
+External core_6 test_6_3_6 (63558, 63787)
+External core_6 test_6_3_7 (43413, 43689)
+External core_7 test_7_3_1 (31605, 31784)
+External core_7 test_7_3_2 (37274, 37506)
+External core_7 test_7_3_3 (16569, 17173)
+External core_7 test_7_3_4 (21648, 21990)
+External core_8 test_8_3_1 (48073, 48203)
+External core_8 test_8_3_2 (28465, 28772)
+External core_8 test_8_3_3 (65457, 65877)
+External core_8 test_8_3_4 (27489, 28464)
+External core_8 test_8_3_5 (34411, 35346)
+External core_8 test_8_3_6 (26190, 27488)
+External core_9 test_9_3_1 (53584, 54432)
+External core_9 test_9_3_2 (33783, 34213)
+External core_9 test_9_3_3 (69284, 69636)
+External core_9 test_9_3_4 (26190, 28847)
+External core_9 test_9_3_5 (34214, 34380)
+External core_9 test_9_3_6 (70995, 71325)
+External core_9 test_9_3_7 (34411, 35335)
+External core_9 test_9_3_8 (65457, 66097)
+External core_9 test_9_3_9 (56652, 56817)
+BIST core_10 test_10_2_1 (3885, 4569)
+External core_10 test_10_3_1 (60295, 60787)
+External core_10 test_10_3_2 (11734, 11843)
+External core_10 test_10_3_3 (64558, 64945)
+External core_10 test_10_3_4 (56897, 57508)
+External core_10 test_10_3_5 (14457, 14679)
+External core_10 test_10_3_6 (59701, 60255)
+External core_10 test_10_3_7 (56013, 56691)
+External core_10 test_10_3_8 (47294, 48111)
+External core_10 test_10_3_9 (30162, 30600)
+External core_10 test_10_3_10 (55766, 55968)
+External core_10 test_10_3_11 (8910, 10820)
+External core_10 test_10_3_12 (63327, 63757)
+External core_10 test_10_3_13 (69965, 70298)
+External core_10 test_10_3_14 (43371, 43645)
+External core_10 test_10_3_15 (19386, 20762)
+External core_10 test_10_3_16 (10821, 11733)
+External core_10 test_10_3_17 (28848, 30161)
+External core_10 test_10_3_18 (2415, 2953)
+External core_10 test_10_3_19 (56692, 56843)
+External core_10 test_10_3_20 (25155, 26013)
+External core_10 test_10_3_21 (27918, 28765)
+External core_10 test_10_3_22 (38450, 39631)
+External core_10 test_10_3_23 (59076, 59665)
+External core_10 test_10_3_24 (20763, 21950)
+External core_11 test_11_3_1 (14457, 14692)
+External core_11 test_11_3_2 (35369, 36285)
+External core_12 test_12_3_1 (14700, 17114)
+External core_12 test_12_3_2 (35369, 36278)
+External core_12 test_12_3_3 (53584, 54437)
+External core_12 test_12_3_4 (34411, 35366)
+External core_12 test_12_3_5 (71625, 71894)
+External core_13 test_13_3_1 (58425, 58916)
+External core_13 test_13_3_2 (65457, 65685)
+External core_13 test_13_3_3 (53584, 54177)
+External core_13 test_13_3_4 (43691, 44494)
+External core_13 test_13_3_5 (51288, 51409)
+External core_13 test_13_3_6 (34411, 35368)
+External core_13 test_13_3_7 (18597, 19349)
+External core_13 test_13_3_8 (37512, 38449)
+External core_13 test_13_3_9 (2967, 5594)
+External core_13 test_13_3_10 (40621, 41530)
+External core_13 test_13_3_11 (60776, 61050)
+External core_14 test_14_3_1 (56897, 57732)
+External core_14 test_14_3_2 (69596, 69889)
+External core_15 test_15_3_1 (39326, 39724)
+External core_15 test_15_3_2 (36327, 37233)
+BIST core_16 test_16_1_1 (0, 580)
+External core_16 test_16_3_1 (14700, 17192)
+External core_16 test_16_3_2 (32833, 33782)
+External core_17 test_17_3_1 (46294, 46432)
+External core_17 test_17_3_2 (43691, 44509)
+BIST core_18 test_18_1_1 (0, 950)
+External core_18 test_18_3_1 (64558, 65021)
+External core_18 test_18_3_2 (44510, 44648)
+BIST core_19 test_19_2_1 (993, 1927)
+BIST core_19 test_19_1_1 (0, 274)
+BIST core_20 test_20_2_1 (2967, 3756)
+External core_20 test_20_3_1 (37512, 38398)
+BIST core_21 test_21_1_1 (0, 694)
+External core_21 test_21_3_1 (68263, 68645)
+External core_21 test_21_3_2 (70697, 70871)
+External core_21 test_21_3_3 (43691, 44648)
+External core_21 test_21_3_4 (51419, 52174)
+External core_22 test_22_3_1 (2967, 5930)
+External core_22 test_22_3_2 (67413, 67725)
+External core_23 test_23_3_1 (65457, 66245)
+External core_23 test_23_3_2 (69284, 69964)
+External core_23 test_23_3_3 (32833, 34410)
+External core_23 test_23_3_4 (71895, 72081)
+External core_23 test_23_3_5 (26190, 27917)
+External core_23 test_23_3_6 (70995, 71339)
+External core_24 test_24_3_1 (67726, 68062)
+External core_24 test_24_3_2 (47294, 48208)
+External core_24 test_24_3_3 (38450, 39745)
+BIST core_25 test_25_1_1 (0, 549)
+External core_25 test_25_3_1 (57733, 58368)
+BIST core_26 test_26_1_1 (0, 924)
+External core_26 test_26_3_1 (43371, 43668)
+External core_27 test_27_3_1 (62790, 63326)
+External core_27 test_27_3_2 (38450, 39325)
+BIST core_28 test_28_2_1 (1940, 2401)
+BIST core_28 test_28_2_2 (2967, 3884)
+External core_28 test_28_3_1 (5931, 8882)
+External core_28 test_28_3_2 (55126, 55765)
+External core_29 test_29_3_1 (49792, 50646)
+External core_29 test_29_3_2 (68797, 69283)
+External core_29 test_29_3_3 (71340, 71624)
+External core_29 test_29_3_4 (68263, 68796)
+External core_29 test_29_3_5 (60295, 61081)
+BIST core_30 test_30_1_1 (0, 694)
+External core_30 test_30_3_1 (41531, 42397)
+External core_31 test_31_3_1 (0, 2966)
+External core_31 test_31_3_2 (62225, 62789)
+External core_31 test_31_3_3 (59076, 59680)
+External core_31 test_31_3_4 (30642, 31618)
+External core_32 test_32_3_1 (8910, 11858)
+External core_32 test_32_3_2 (59701, 60294)
+BIST core_33 test_33_1_1 (0, 971)
+External core_34 test_34_3_1 (52868, 53463)
+External core_34 test_34_3_2 (20613, 21647)
+External core_34 test_34_3_3 (19386, 20612)
+External core_34 test_34_3_4 (44495, 44641)
+External core_34 test_34_3_5 (23631, 24598)
+External core_35 test_35_3_1 (68063, 68262)
+BIST core_36 test_36_1_1 (993, 1223)
+BIST core_36 test_36_1_2 (0, 990)
+External core_36 test_36_3_1 (48209, 48986)
+External core_37 test_37_3_1 (60295, 60775)
+External core_37 test_37_3_2 (46286, 46457)
+External core_37 test_37_3_3 (30642, 31604)
+BIST core_38 test_38_2_1 (5931, 6576)
+BIST core_38 test_38_1_1 (0, 703)
+BIST core_39 test_39_1_1 (0, 684)
+External core_39 test_39_3_1 (39746, 40620)
+BIST core_40 test_40_2_1 (0, 992)
+External core_41 test_41_3_1 (28848, 30641)
+External core_41 test_41_3_2 (11874, 14699)
+External core_41 test_41_3_3 (70157, 70343)
+External core_41 test_41_3_4 (55126, 56012)
+BIST core_42 test_42_1_1 (0, 537)
+External core_42 test_42_3_1 (58425, 59040)
+External core_42 test_42_3_2 (45486, 46293)
+External core_43 test_43_3_1 (11874, 14456)
+External core_43 test_43_3_2 (42521, 43370)
+External core_44 test_44_3_1 (68646, 68775)
+External core_44 test_44_3_2 (2415, 2952)
+External core_44 test_44_3_3 (56013, 56896)
+External core_44 test_44_3_4 (60295, 60812)
+External core_44 test_44_3_5 (60813, 61028)
+External core_44 test_44_3_6 (42521, 43690)
+External core_44 test_44_3_7 (65457, 65866)
+External core_44 test_44_3_8 (65867, 66078)
+External core_44 test_44_3_9 (66079, 66213)
+External core_44 test_44_3_10 (45486, 46459)
+External core_44 test_44_3_11 (63327, 63841)
+External core_44 test_44_3_12 (58425, 59075)
+External core_44 test_44_3_13 (57733, 58424)
+External core_44 test_44_3_14 (8910, 11873)
+External core_44 test_44_3_15 (23631, 26189)
+External core_44 test_44_3_16 (5931, 8909)
+External core_44 test_44_3_17 (19386, 22058)
+External core_45 test_45_3_1 (17193, 18596)
+External core_45 test_45_3_2 (8505, 8895)
+External core_45 test_45_3_3 (44649, 45452)
+External core_45 test_45_3_4 (42521, 43412)
+External core_45 test_45_3_5 (54178, 54419)
+External core_45 test_45_3_6 (0, 2633)
+BIST core_46 test_46_1_1 (0, 590)
+BIST core_46 test_46_1_2 (993, 1514)
+External core_46 test_46_3_1 (23631, 25154)
+BIST core_47 test_47_2_1 (8910, 9310)
+External core_47 test_47_3_1 (59701, 60264)
+External core_47 test_47_3_2 (63842, 64334)
+External core_48 test_48_3_1 (46460, 47250)
+External core_48 test_48_3_2 (56013, 56651)
+External core_48 test_48_3_3 (52868, 53557)
+BIST core_49 test_49_1_1 (0, 560)
+External core_49 test_49_3_1 (63327, 63818)
+BIST core_50 test_50_1_1 (0, 306)
+External core_50 test_50_3_1 (66246, 66648)
+BIST core_51 test_51_1_1 (0, 699)
+External core_52 test_52_3_1 (45486, 46285)
+External core_52 test_52_3_2 (50448, 50624)
+External core_52 test_52_3_3 (24599, 25562)
+External core_52 test_52_3_4 (62790, 63242)
+External core_52 test_52_3_5 (2634, 2955)
+BIST core_53 test_53_2_1 (11874, 12380)
+External core_53 test_53_3_1 (52175, 52867)
+External core_53 test_53_3_2 (40621, 41489)
+External core_54 test_54_3_1 (46460, 47293)
+External core_54 test_54_3_2 (62225, 62689)
+External core_54 test_54_3_3 (49792, 50581)
+External core_55 test_55_3_1 (41531, 42520)
+External core_55 test_55_3_2 (54438, 55125)
+External core_55 test_55_3_3 (31833, 32832)
+BIST core_56 test_56_1_1 (0, 693)
+External core_56 test_56_3_1 (54438, 55096)
+BIST core_57 test_57_2_1 (8910, 9557)
+External core_57 test_57_3_1 (67726, 68011)
+External core_57 test_57_3_2 (67008, 67363)
+External core_58 test_58_3_1 (69284, 69595)
+External core_59 test_59_3_1 (65878, 66158)
+External core_59 test_59_3_2 (33783, 34397)
+External core_59 test_59_3_3 (60295, 60876)
+External core_59 test_59_3_4 (49792, 50505)
+External core_59 test_59_3_5 (53584, 54247)
+BIST core_60 test_60_1_1 (0, 128)
+External core_60 test_60_3_1 (17193, 19385)
+External core_61 test_61_3_1 (21021, 22018)
+External core_61 test_61_3_2 (30016, 30638)
+BIST core_62 test_62_1_1 (0, 579)
+External core_62 test_62_3_1 (61658, 62224)
+External core_62 test_62_3_2_3 (28848, 30015)
+BIST core_63 test_63_2_1 (5931, 6770)
+BIST core_63 test_63_1_1 (0, 250)
+BIST core_64 test_64_1_1 (0, 228)
+External core_64 test_64_3_1 (48987, 49673)
+External core_64 test_64_3_2 (50647, 51287)
+External core_64 test_64_3_3 (57733, 58290)
+External core_64 test_64_3_4 (11037, 11869)
+External core_64 test_64_3_5 (48209, 48909)
+External core_64 test_64_3_6 (25563, 26166)
+BIST core_65 test_65_1_1 (0, 864)
+External core_65 test_65_3_1 (22059, 23630)
+BIST core_66 test_66_1_1 (0, 945)
+BIST core_66 test_66_1_2 (1940, 2064)
+BIST core_66 test_66_1_3 (993, 1293)
+External core_67 test_67_3_1 (65022, 65456)
+External core_67 test_67_3_2 (61082, 61657)
+BIST core_68 test_68_2_1 (0, 990)
+BIST core_68 test_68_1_1 (1940, 2306)
+BIST core_68 test_68_1_2 (993, 1871)
+BIST core_69 test_69_2_1 (6771, 7321)
+BIST core_69 test_69_1_1 (0, 651)
+External core_70 test_70_3_1 (50647, 51348)
+External core_70 test_70_3_2 (48987, 49747)
+External core_70 test_70_3_3 (69965, 70696)
+External core_71 test_71_3_1 (51419, 52111)
+External core_71 test_71_3_2 (19386, 21020)
+External core_72 test_72_3_1 (34159, 34409)
+External core_72 test_72_3_2 (62225, 62699)
+External core_72 test_72_3_3 (63327, 63557)
+External core_72 test_72_3_4 (8910, 11036)
+External core_72 test_72_3_5 (51419, 52054)
+BIST core_73 test_73_1_1 (993, 1102)
+BIST core_73 test_73_1_2 (0, 683)
+External core_73 test_73_3_1 (56897, 57533)
+External core_74 test_74_3_1 (0, 2414)
+External core_74 test_74_3_2 (52868, 53583)
+External core_74 test_74_3_3 (36327, 37511)
+External core_74 test_74_3_4 (48987, 49791)
+External core_74 test_74_3_5 (68797, 69131)
+External core_74 test_74_3_6 (50647, 51418)
+BIST core_75 test_75_1_1 (0, 916)
+External core_75 test_75_3_1 (63842, 64557)
+External core_76 test_76_3_1 (32833, 34158)
+External core_76 test_76_3_2 (67008, 67412)
+BIST core_77 test_77_1_1 (993, 1440)
+BIST core_77 test_77_1_2 (1940, 2098)
+BIST core_77 test_77_1_3 (0, 623)
+External core_77 test_77_3_1 (47294, 48072)
+BIST core_78 test_78_2_1 (993, 1939)
+External core_78 test_78_3_1 (70697, 70994)
+External core_78 test_78_3_2 (55766, 55993)
+BIST core_79 test_79_1_1 (0, 806)
+External core_79 test_79_3_1 (66649, 67007)
+External core_79 test_79_3_2 (31833, 32783)
+External core_80 test_80_3_1 (64558, 64993)
+External core_80 test_80_3_2 (69965, 70156)
+External core_80 test_80_3_3 (59076, 59700)
+External core_80 test_80_3_4 (26190, 28628)
+end

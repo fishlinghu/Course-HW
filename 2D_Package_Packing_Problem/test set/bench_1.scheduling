@@ -1,0 +1,28 @@
+Schedule
+begin
+Test_time 1950
+TAM_assignment core_1 [3:0]
+TAM_assignment core_2 [4:3]
+TAM_assignment core_3 [2:0]
+TAM_assignment core_4 [3:0]
+TAM_assignment core_5 [5:0]
+TAM_assignment core_6 [7:5]
+TAM_assignment core_7 [3:0]
+TAM_assignment core_8 [7:5]
+BIST core_1 test_2 (1650, 1849)
+External core_1 test_1 (700, 999)
+BIST core_2 test_4 (1500, 1599)
+External core_2 test_3 (0, 199)
+BIST core_3 test_6 (1400, 1649)
+External core_3 test_5 (0, 499)
+BIST core_4 test_8 (1400, 1499)
+External core_4 test_7 (1000, 1099)
+BIST core_5 test_10 (1850, 1949)
+External core_5 test_9 (1400, 1599)
+BIST core_6 test_12 (700, 899)
+External core_6 test_11 (0, 599)
+BIST core_7 test_14 (700, 1399)
+External core_7 test_13 (1650, 1849)
+BIST core_8 test_16 (0, 699)
+External core_8 test_15 (700, 949)
+end

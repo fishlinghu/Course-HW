@@ -1,0 +1,50 @@
+Schedule
+begin
+Test_time 446932
+TAM_assignment core_1 [11:0]
+TAM_assignment core_2 [59:48]
+TAM_assignment core_3 [11:0]
+TAM_assignment core_4 [23:12]
+TAM_assignment core_5 [59:48]
+TAM_assignment core_6 [47:36]
+TAM_assignment core_7 [35:24]
+TAM_assignment core_8 [11:0]
+TAM_assignment core_9 [59:48]
+TAM_assignment core_14 [47:36]
+TAM_assignment core_10 [59:48]
+TAM_assignment core_11 [35:24]
+TAM_assignment core_12 [47:36]
+TAM_assignment core_13 [59:48]
+BIST core_1 test_2 (443813, 444068)
+BIST core_1 test_3 (444585, 444840)
+External core_1 test_1 (0, 186548)
+External core_2 test_4 (328407, 328584)
+External core_3 test_5 (341858, 415391)
+BIST core_4 test_7 (445356, 445887)
+BIST core_4 test_8 (445888, 446419)
+BIST core_4 test_9 (443813, 444584)
+BIST core_4 test_10 (341858, 362817)
+External core_4 test_6 (0, 341857)
+External core_5 test_11 (312803, 328406)
+External core_6 test_12 (187067, 301126)
+External core_7 test_13 (215588, 339021)
+BIST core_8 test_15 (438391, 439545)
+BIST core_8 test_16 (55520, 59483)
+External core_8 test_14 (186549, 309982)
+BIST core_9 test_18 (445356, 445611)
+External core_9 test_17 (215588, 312802)
+External core_14 test_19 (341858, 406627)
+BIST core_10 test_21 (446420, 446675)
+BIST core_10 test_22 (446676, 446931)
+External core_10 test_20 (0, 215587)
+BIST core_11 test_24 (341858, 351074)
+BIST core_11 test_25 (362818, 370882)
+BIST core_11 test_26 (441563, 441950)
+External core_11 test_23 (0, 215587)
+BIST core_12 test_28 (438391, 441562)
+External core_12 test_27 (0, 187066)
+BIST core_13 test_30 (444585, 445355)
+BIST core_13 test_31 (441563, 443812)
+BIST core_13 test_32 (0, 55519)
+External core_13 test_29 (341858, 438390)
+end

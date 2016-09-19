@@ -1,0 +1,17 @@
+Schedule
+begin
+Test_time 11
+TAM_assignment core_1 [1:0]
+TAM_assignment core_2 [5:4]
+TAM_assignment core_3 [3:2]
+TAM_assignment core_4 [7:6]
+TAM_assignment core_5 [7:6]
+TAM_assignment core_6 [3:2]
+External core_1 test_1 (0, 4)
+External core_1 test_2 (5, 9)
+External core_2 test_3 (0, 10)
+External core_3 test_4 (0, 4)
+External core_4 test_5 (0, 4)
+External core_5 test_6 (5, 9)
+External core_6 test_7 (5, 9)
+end
